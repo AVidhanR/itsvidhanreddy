@@ -42,7 +42,9 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Contacts">
           <div className="flex flex-col space-y-4 text-md">
-            <HoveredLink href="https://github.com/AVidhanR">GitHub</HoveredLink>
+            <HoveredLink href="https://github.com/AVidhanR" className="">
+              GitHub
+            </HoveredLink>
             <HoveredLink href="https://linkedin.com/in/AVidhanR">
               LinkedIn
             </HoveredLink>
