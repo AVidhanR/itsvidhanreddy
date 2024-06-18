@@ -31,3 +31,14 @@ body {
     text-wrap: balance;
   }
 }
+
+.list-item-custom {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 730px) {
+  .navbar-responsive {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,11 +1,9 @@
 import Hero from "@/components/hero-components/Hero";
-import Navbar from "@/components/hero-components/Navbar";
 import React from "react";
 
 function App() {
   return (
-    <div>
-      <Navbar className="top-2" />
+    <div className="mt-20">
       <Hero />
     </div>
   );
