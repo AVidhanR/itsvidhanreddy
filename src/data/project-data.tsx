@@ -28,7 +28,7 @@ export const projectData = [
     description:
       'A Simple restaurant website using HTML and CSS. Welcome to Ruchi Restaurant, where we serve up delicious and authentic cuisine. Our name, "Ruchi," translates to "delight" in Hindi, and that\'s exactly what we aim to bring to your plate.',
     image:
-      "https://github.com/AVidhanR/geeksforgeeks__rec/assets/116101537/66d95df4-0848-4b5d-b8d7-d8713d05aacb",
+      "https://github.com/AVidhanR/EmailSenderApp/assets/116101537/712fd05d-6114-4e5a-8d9c-4955f0c36420",
     badge: "Web Development",
   },
   {
