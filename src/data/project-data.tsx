@@ -3,18 +3,23 @@ import { LinkPreview } from "@/components/ui/link-preview";
 export const projectData = [
   {
     title: (
-      <LinkPreview
-        url="https://github.com/AVidhanR/GifGenerator"
-        className="text-white"
-      >
-        Gif Generator
+      <LinkPreview className="text-white" url="https://github.com/AVidhanR/QuoteGenerator">
+        Quote Generator
       </LinkPreview>
     ),
-    description:
-      "A Simple gif generator using python. This Python program allows you to create animated GIFs from a collection of images. It provides a user-friendly interface and flexibility in choosing the theme of your GIF.",
-    image:
-      "https://github.com/AVidhanR/GIfGenerator/assets/116101537/70d1eb68-95c0-4fba-b561-b5b52ab4d662",
-    badge: "Python",
+    description: 'This is a simple quote generator that generates a random quote from a list of quotes.The quotes are displayed on the screen and the user can click on the button to generate a new quote.',
+    image: "https://github.com/user-attachments/assets/9c7def77-1d0c-426d-acf1-63385e934948",
+    badge: "Web Development"
+  },
+  {
+    title: (
+      <LinkPreview className="text-white" url="https://github.com/AVidhanR/Pomodoro">
+        Pomodoro
+      </LinkPreview>
+    ),
+    description: "Pomodoro is a time management technique that uses a timer to break down work into intervals, traditionally 25 minutes in length.",
+    image: "https://github.com/user-attachments/assets/13d19824-63f0-468d-8d64-683e962e6264",
+    badge: "Web Development", 
   },
   {
     title: (
@@ -28,7 +33,7 @@ export const projectData = [
     description:
       'A Simple restaurant website using HTML and CSS. Welcome to Ruchi Restaurant, where we serve up delicious and authentic cuisine. Our name, "Ruchi," translates to "delight" in Hindi, and that\'s exactly what we aim to bring to your plate.',
     image:
-      "https://github.com/AVidhanR/EmailSenderApp/assets/116101537/712fd05d-6114-4e5a-8d9c-4955f0c36420",
+      "https://github.com/user-attachments/assets/89a272d0-39cc-4a0e-8445-1a17aa9a805f",
     badge: "Web Development",
   },
   {
@@ -45,6 +50,21 @@ export const projectData = [
     image:
       "https://github.com/AVidhanR/DataVisualization/assets/116101537/4e0ced96-6619-4598-a945-95a3dffbd207",
     badge: "Python & Streamlit",
+  },
+  {
+    title: (
+      <LinkPreview
+        url="https://github.com/AVidhanR/GifGenerator"
+        className="text-white"
+      >
+        Gif Generator
+      </LinkPreview>
+    ),
+    description:
+      "A Simple gif generator using python. This Python program allows you to create animated GIFs from a collection of images. It provides a user-friendly interface and flexibility in choosing the theme of your GIF.",
+    image:
+      "https://github.com/AVidhanR/GIfGenerator/assets/116101537/70d1eb68-95c0-4fba-b561-b5b52ab4d662",
+    badge: "Python",
   },
   {
     title: (
