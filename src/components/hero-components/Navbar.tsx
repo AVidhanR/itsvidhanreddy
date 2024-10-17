@@ -25,7 +25,7 @@ function Navbar({ className }: { className?: string }) {
               title="Quote Generator"
               href="https://github.com/AVidhanR/QuoteGenerator"
               src="https://github.com/user-attachments/assets/9c7def77-1d0c-426d-acf1-63385e934948"
-              description="This is a simple quote generator that generates a random quote from a list of quotes."
+              description="This is a simple quote generator that generates a random quote."
             />
             <ProductItem
               title="Data Visualization"
