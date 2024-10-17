@@ -22,10 +22,10 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="text-sm grid grid-cols-2 gap-10 p-4 navbar-responsive">
             <ProductItem
-              title="Ruchi Restaurant"
-              href="https://github.com/AVidhanR/RuchiRestaurent"
-              src="https://github.com/AVidhanR/geeksforgeeks__rec/assets/116101537/66d95df4-0848-4b5d-b8d7-d8713d05aacb"
-              description="A simple restaurant website using HTML and CSS."
+              title="Quote Generator"
+              href="https://github.com/AVidhanR/QuoteGenerator"
+              src="https://github.com/user-attachments/assets/9c7def77-1d0c-426d-acf1-63385e934948"
+              description="This is a simple quote generator that generates a random quote from a list of quotes."
             />
             <ProductItem
               title="Data Visualization"
