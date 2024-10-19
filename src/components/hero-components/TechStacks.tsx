@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 
 // trying out es6 syntax
