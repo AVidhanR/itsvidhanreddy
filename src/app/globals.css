@@ -44,5 +44,5 @@ body {
 }
 
 .transition-color {
-  transition: ease-in color 0.3s;
+  transition: ease-in-out color 0.8s;
 }
