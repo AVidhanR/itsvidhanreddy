@@ -103,14 +103,15 @@ function About() {
           </h2>
           <div className="text-lg">
             <p className="list-item-custom list-item">
-              Core Team member,{" "}
+              Former Core Team member, Google Developers Student Clubs (GDSC) -
+              Now know as{" "}
               <LinkPreview
-                url="https://gdsc.community.dev/u/mch2pc/#/about"
+                url="https://gdg.community.dev"
                 className="font-bold"
               >
-                Google Developers Student Clubs (GDSC)
+                Google Developer Groups (GDG)
               </LinkPreview>
-              , Raghu Engineering College
+              , Raghu Engineering College.
             </p>
             <p className="list-item-custom list-item">
               Achieved recognition as a Top 10 Participant at the national-level
