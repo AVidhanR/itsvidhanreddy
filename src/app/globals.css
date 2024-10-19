@@ -42,3 +42,7 @@ body {
     flex-direction: column;
   }
 }
+
+.transition-color {
+  transition: ease-in color 0.3s;
+}
