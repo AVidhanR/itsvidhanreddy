@@ -1,6 +1,7 @@
 import React from "react";
 
 const techStacks: string[] = [
+  "C",
   "C++",
   "Java",
   "Python",
@@ -13,6 +14,15 @@ const techStacks: string[] = [
   "Bash",
   "PostgreSQL",
 ];
+
+// gonna do it later
+const TechComponent = (tech: string) => {
+  return (
+    <div className="">
+      <button className="">{tech}</button>
+    </div>
+  );
+};
 
 // trying out es6 syntax
 const TechStacks = () => {
