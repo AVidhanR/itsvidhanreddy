@@ -17,7 +17,7 @@ const techStacks: string[] = [
 // trying out es6 syntax
 const TechStacks = () => {
   return (
-    <div className="p-4 font-bold cursor-pointer text-start text-2xl">
+    <div className="p-4 mx-auto font-bold cursor-pointer text-start text-2xl">
       <span className=" hover:text-blue-500 hover:transition-colors">
         Technologies{" "}
       </span>{" "}
