@@ -3,23 +3,33 @@ import { LinkPreview } from "@/components/ui/link-preview";
 export const projectData = [
   {
     title: (
-      <LinkPreview className="text-white" url="https://github.com/AVidhanR/QuoteGenerator">
+      <LinkPreview
+        className="text-white"
+        url="https://github.com/AVidhanR/QuoteGenerator"
+      >
         Quote Generator
       </LinkPreview>
     ),
-    description: 'This is a simple quote generator that generates a random quote from a list of quotes.The quotes are displayed on the screen and the user can click on the button to generate a new quote.',
-    image: "https://github.com/user-attachments/assets/9c7def77-1d0c-426d-acf1-63385e934948",
-    badge: "Web Development"
+    description:
+      "This is a simple quote generator that generates a random quote from a list of quotes.The quotes are displayed on the screen and the user can click on the button to generate a new quote.",
+    image:
+      "https://github.com/user-attachments/assets/9c7def77-1d0c-426d-acf1-63385e934948",
+    badge: "Web Development",
   },
   {
     title: (
-      <LinkPreview className="text-white" url="https://github.com/AVidhanR/Pomodoro">
+      <LinkPreview
+        className="text-white"
+        url="https://github.com/AVidhanR/Pomodoro"
+      >
         Pomodoro
       </LinkPreview>
     ),
-    description: "Pomodoro is a time management technique that uses a timer to break down work into intervals, traditionally 25 minutes in length.",
-    image: "https://github.com/user-attachments/assets/13d19824-63f0-468d-8d64-683e962e6264",
-    badge: "Web Development", 
+    description:
+      "Pomodoro is a time management technique that uses a timer to break down work into intervals, traditionally 25 minutes in length.",
+    image:
+      "https://github.com/user-attachments/assets/13d19824-63f0-468d-8d64-683e962e6264",
+    badge: "Web Development",
   },
   {
     title: (
