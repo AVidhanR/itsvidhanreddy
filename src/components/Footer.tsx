@@ -1,9 +1,10 @@
-import React from "react";
-
+"use client";
 function Footer() {
+  const currentYear = new Date().getFullYear();
+  
   return (
     <footer className="m-6 flex items-center justify-center">
-      &copy;{new Date().getFullYear()} A Vidhan Reddy
+      &copy;{currentYear} A Vidhan Reddy
     </footer>
   );
 }
